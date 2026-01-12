@@ -46,3 +46,5 @@ jobs:
 
     - name:trivy fs scan
       run: trivy fs --format table -o fs-report.json .
+
+      
