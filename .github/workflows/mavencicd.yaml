@@ -47,7 +47,7 @@ jobs:
     - name: trivy fs scan
       run: trivy fs --format table -o fs-report.json .//
 
-test:
+  test:
     runs-on: self-hosted
     needs: security-check
     steps:
