@@ -80,7 +80,7 @@ jobs:
         name: app-jar
         path: target/*.jar
 
-  buils_docker_image_and_push:
+  buils_docker_image_and_image_push:
     runs-on: self-hosted
     needs: build_project
     steps:
